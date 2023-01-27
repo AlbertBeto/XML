@@ -1,5 +1,5 @@
 <!ELEMENT discoteca (album*)>
-<!ELEMENT album ((artista|artistas), genero, canciones) > 
+<!ELEMENT album ((artista | artistas), genero, canciones) > 
 <!ELEMENT artista (#PCDATA) >
 <!ELEMENT genero (#PCDATA) > 
 <!ELEMENT canciones (#PCDATA) >
