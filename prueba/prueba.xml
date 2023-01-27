@@ -2,7 +2,9 @@
 <!DOCTYPE discoteca SYSTEM "validacion_canciones.dtd">
 <discoteca>
 <album>
-    <artista></artista>
+    <artistas>
+    
+</artistas>
     <genero>Rock</genero>
     
     <canciones>
