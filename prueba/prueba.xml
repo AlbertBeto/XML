@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE discoteca SYSTEM "validacion_canciones.dtd">
+<discoteca>
+<album>
+    <artista></artista>
+    <genero>Rock</genero>
+    
+    <canciones>
+    
+    </canciones>
+</album>
+
+</discoteca>
