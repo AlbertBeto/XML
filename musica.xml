@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<musica>
+    <album id=1>
+        <informacion>
+            <imagen>ruta</imagen>
+            <artista>abc(2)</artista>
+            <titulo>the collection</titulo>
+            <sello>karussell international</sello>
+            <referencia>551 831 -2 </referencia>
+            <ano>1996</ano> 
+            <pais>germany</pais>
+            <formato>cd - compilation</formato>
+            <genero>funk / soul, electronic</genero>
+            <estilo>funk disco, synth pop</estilo>
+            <observaciones>licensed from mercury records ltd (london)</observaciones>
+        </informacion>
+        <canciones id=cd1>
+            <cancion id=1>
+                <titulo>poison arrow</titulo>
+                <duracion>03:23</duracion>
+            </cancion>
+             <cancion id=2>
+                <titulo>the look of love (part one)</titulo>
+                <duracion>03:29</duracion>
+            </cancion>
+             <cancion id=3>
+                <titulo>the nigth you murdered love</titulo>
+                <duracion>04:53</duracion>
+            </cancion>
+             <cancion id=4>
+                <titulo>tears are not enough</titulo>
+                <duracion>03:29</duracion>
+            </cancion>
+             <cancion id=5>
+                <titulo>be near me</titulo>
+                <duracion>03:37</duracion>
+            </cancion>
+             <cancion id=6>
+                <titulo>i'm in love with you</titulo>
+                <duracion>04:35</duracion>
+            </cancion>
+             <cancion id=7>
+                <titulo>the real thing</titulo>
+                <duracion>04:54</duracion>
+            </cancion>
+             <cancion id=8>
+                <titulo>love's a dangerous language</titulo>
+                <duracion>03:40</duracion>
+            </cancion>
+             <cancion id=9>
+                <titulo>the greatest love of all</titulo>
+                <duracion>05:34</duracion>
+            </cancion>
+             <cancion id=10>
+                <titulo>when smokey sings</titulo>
+                <duracion>04:18</duracion>
+            </cancion>
+             <cancion id=11>
+                <titulo>one better world</titulo>
+                <duracion>05:38</duracion>
+            </cancion>
+             <cancion id=12>
+                <titulo>vanity kills</titulo>
+                <duracion>03:29</duracion>
+            </cancion>
+             <cancion id=13>
+                <titulo>bite the hand</titulo>
+                <duracion>03:07</duracion>
+            </cancion>
+             <cancion id=14>
+                <titulo>chicago (abridged)</titulo>
+                <duracion>03:40</duracion>
+            </cancion>
+             <cancion id=15>
+                <titulo>minneapolis</titulo>
+                <duracion>02:57</duracion>
+            </cancion>
+             <cancion id=16>
+                <titulo>think again</titulo>
+                <duracion>03:39</duracion>
+            </cancion>
+             <cancion id=17>
+                <titulo>never more than now</titulo>
+                <duracion>06:03</duracion>
+            </cancion>
+             <cancion id=18>
+                <titulo>all of my heart</titulo>
+                <duracion>04:49</duracion>
+            </cancion>
+        </canciones>
+    </album>
+</musica>

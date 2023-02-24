@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<librosXML>
+    <elibrerias>
+        <amazon>
+            <libroamazon id=1>
+                <isbn>841642456X</isbn>
+                <titulo>Lenguaje XML (UF2217)</titulo>
+                <nivel></nivel>
+                <editorial>Editorial Elearning S.L.</editorial>
+                <fechapublicacion>1 mayo 2015</fechapublicacion>
+                <web>https://www.amazon.es/Lenguaje-UF2217-Francisco-Castro-B%C3%A1ez/dp/841642456X/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3O8X961HDJKNC&keywords=xml&qid=1675014870&refinements=p_n_feature_browse-bin%3A15428535031&rnid=831437031&s=books&sprefix=xml%2Cstripbooks%2C92&sr=1-3</web>
+                <precio>35.00</precio>
+                <autores> Francisco Castro Báez</autores>
+            </libroamazon>
+            <libroamazon id=2>
+                <isbn>6205257238</isbn>
+                <titulo>Minería de reglas de asociación en bases de datos XML </titulo>
+                <nivel>avanzado</nivel>
+                <editorial>Ediciones Nuestro Conocimiento </editorial>
+                <fechapublicacion>17 octubre 2022</fechapublicacion>
+                <web>https://www.amazon.es/Miner%C3%ADa-reglas-asociaci%C3%B3n-bases-datos/dp/6205257238/ref=sr_1_9?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3O8X961HDJKNC&keywords=xml&qid=1675014870&refinements=p_n_feature_browse-bin%3A15428535031&rnid=831437031&s=books&sprefix=xml%2Cstripbooks%2C92&sr=1-9</web>
+                <precio>35.90</precio>
+                <autores> Sasikala Duraisamy</autores>
+            </libroamazon>
+        </amazon>
+        <lacasadellibro>
+            <librolacasadellibro id=1>
+                <isbn>9782746097360</isbn>
+                <titulo>XML PRÁCTICO (2ª ED.)</titulo>
+                <nivel>basico</nivel>
+                <editorial>eni</editorial>
+                <fechapublicacion>10 septiembre 2015</fechapublicacion>
+                <web>https://www.casadellibro.com/libro-xml-practico-2-ed/9782746097360/2610974</web>
+                <precio>28.40</precio>
+                <autores>THIERRY BOULANGER</autores>
+            </librolacasadellibro>
+             <librolacasadellibro id=2>
+                <isbn>9788495318688</isbn>
+                <titulo>INICIACION A XML</titulo>
+                <nivel>basico</nivel>
+                <editorial>infor book s ediciones</editorial>
+                <fechapublicacion>2001</fechapublicacion>
+                <web>https://www.casadellibro.com/libro-iniciacion-a-xml/9788495318688/790818</web>
+                <precio>33.97</precio>
+                <autores>DAVID E. HUNTER</autores>
+            </librolacasadellibro>
+        </lacasadellibro>
+
+    </elibrerias>
+</librosXML>
