@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE facturaTipo SYSTEM "facturator.dtd">
+<!DOCTYPE facturatipo SYSTEM "facturator.dtd">
 <factura n_fac="f999">
 <datos_empresa>
     <nombre>Equipos Digitales S.L.</nombre>
@@ -53,4 +53,4 @@
     <total>1125,20</total>
 </datos_factura>
 </factura>
-</facturaTipo>
+</facturatipo>

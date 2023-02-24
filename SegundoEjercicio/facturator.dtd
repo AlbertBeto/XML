@@ -1,5 +1,6 @@
-<!ELEMENT facturaTipo (factura+)>
+<!ELEMENT facturatipo (factura+)>
 <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
+    <!ATTLIST factura n_fac CDATA #REQUIRED>
 <!ELEMENT datos_empresa (nombre, dir,poblacion, codigo_postal,provincia, cif, telefono, fax)>
 <!ELEMENT nombre (#PCDATA) >
 <!ELEMENT dir (#PCDATA) >
@@ -11,12 +12,15 @@
 <!ELEMENT fax (#PCDATA) >
 
 <!ELEMENT datos_cliente (nombre, dir_env,poblacion, codigo_postal,provincia)>
-
+    <!ATTLIST datos_cliente n_cli CDATA #REQUIRED>
 <!ELEMENT dir_env (#PCDATA) >
 
 <!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
 <!ELEMENT fecha (#PCDATA) >
-
+    <!ATTLIST datos_factura n_ped CDATA #REQUIRED >
+    <!ATTLIST datos_factura iva CDATA "16" >
+    <!ATTLIST datos_factura f_pago CDATA #REQUIRED >
+    <!ATTLIST datos_factura moneda CDATA "euro" >
 <!ELEMENT linea (referencia,descripcion,cantidad,precio,importe) >
     <!ELEMENT referencia (#PCDATA) >
     <!ELEMENT descripcion (#PCDATA) >
