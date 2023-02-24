@@ -1,4 +1,4 @@
-<!ELEMENT facturatipo (factura+)>
+
 <!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
     <!ATTLIST factura n_fac CDATA #REQUIRED>
 <!ELEMENT datos_empresa (nombre, dir,poblacion, codigo_postal,provincia, cif, telefono, fax)>
