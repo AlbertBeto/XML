@@ -1,0 +1,7 @@
+<!ELEMENT facturaTipo (factura+)>
+<!ELEMENT factura (datos_empresa,datos_cliente,datos_factura)>
+<!ELEMENT datos_empresa (nombre, dir,poblacion, codigo_postal,provincia, cif, telefono, fax)>
+
+<!ELEMENT datos_cliente (nombre, dir_env,poblacion, codigo_postal,provincia)>
+
+<!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
