@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DAW 1W ALBERT PEREZ BALEYTO -->
+<!ELEMENT EXAMEN (CABECERA,LISTA_PREGUNTAS)>
+<!ELEMENT CABECERA (curso,evaluacion,modulo,nombre,fecha)>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT evaluacion (#PCDATA)>
+    <!ELEMENT modulo (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+<!ELEMENT LISTA_PREGUNTAS (pregunta+)>
+
+    <!ELEMENT pregunta (enunciado,puntuacion,subpregunta*,imagen*,respuesta?)>
+    <!ATTLIST pregunta tipo (test | escrito | ordenador) #REQUIRED >
+        <!ELEMENT enunciado (#PCDATA)>
+        <!ELEMENT puntuacion (#PCDATA)>
+        <!ELEMENT subpregunta (enunciado,puntuacion*,respuesta?)>
+
+        <!ELEMENT imagen (#PCDATA)>
+        <!ELEMENT respuesta (#PCDATA)>

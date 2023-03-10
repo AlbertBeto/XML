@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EXAMEN SYSTEM "examendtd.dtd">
+<!-- DAW 1W ALBERT PEREZ BALEYTO -->
+<EXAMEN>
+    <CABECERA>
+        <curso></curso>
+        <evaluacion></evaluacion>
+        <modulo></modulo>
+        <nombre></nombre>
+        <fecha></fecha>
+    </CABECERA>
+    <LISTA_PREGUNTAS>
+        <pregunta tipo = "escrito">
+            <enunciado></enunciado>
+            <puntuacion></puntuacion>
+            <imagen></imagen>
+            <respuesta></respuesta>
+        </pregunta>
+
+        <pregunta tipo = "ordenador">
+            <enunciado></enunciado>
+            <puntuacion></puntuacion>
+            <respuesta></respuesta>
+        </pregunta>
+
+        <pregunta tipo = "test">
+            <enunciado></enunciado>
+            <puntuacion></puntuacion>
+            <subpregunta>
+                <enunciado></enunciado>
+                <respuesta></respuesta>
+            </subpregunta>
+            <subpregunta>
+                <enunciado></enunciado>
+                <respuesta></respuesta>
+            </subpregunta>
+            <subpregunta>
+                <enunciado></enunciado>
+                <respuesta></respuesta>
+            </subpregunta>
+            <subpregunta>
+                <enunciado></enunciado>
+                <respuesta></respuesta>
+            </subpregunta>
+            <imagen></imagen>
+            <respuesta></respuesta>
+        </pregunta>
+
+    </LISTA_PREGUNTAS>
+    
+
+</EXAMEN>

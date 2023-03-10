@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id = "FACT20170001">
+<cliente>
+    <nombre>Sr. Pepito Pérez</nombre>
+    <fecha>12/01/2017</fecha>
+</cliente>
+<pedido>
+    <lineapedido>
+        <nombre_producto>Raspberry Pi (Modelo B)</nombre_producto>
+        <cantidad>1</cantidad>
+    </lineapedido>
+    <lineapedido>
+        <nombre_producto>cargador externo</nombre_producto>
+        <cantidad>1</cantidad>
+    </lineapedido>
+    <lineapedido>
+        <nombre_producto>Cable HDMI</nombre_producto>
+        <cantidad>1</cantidad>
+    </lineapedido>
+    <lineapedido>
+        <nombre_producto>Disipadores</nombre_producto>
+        <cantidad>2</cantidad>
+    </lineapedido>
+</pedido>
+<facturacion>
+    <nombre_facturacion>IES Número 1</nombre_facturacion>
+    <direccion_facturacion>Avinguda Augusta, 2 </direccion_facturacion>
+    <poblacion>Xábia</poblacion>
+    <provincia>(Alacant)</provincia>
+</facturacion>
+</factura>
